@@ -1,0 +1,18 @@
+{
+  "name": "mod-24.5-tests-ski-jumping",
+  "version": "0.5.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "mocha ./src/*.test.js",
+    "test:watch": "mocha -w ./src/*.test.js",
+    "test:win": "onchange \"./src/*.js\" -- npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "onchange": "^4.0.0"
+  }
+}
